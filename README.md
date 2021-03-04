@@ -2,6 +2,5 @@
 
 A website, developed using HTML/CSS/JS, for AZUX, by Software Troopers.
 
-Author - @kushenthimira (Cipher)
-
-_softwaretroopers.com_
+Author - _@kushenthimira_ (Cipher)
+Organization - @softwaretroopers (_softwaretroopers.com_)
