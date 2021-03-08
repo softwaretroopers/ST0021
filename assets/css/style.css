@@ -435,10 +435,14 @@ hr {
 }
 .owl-theme .owl-nav .owl-prev:before {
   content: "\f060";
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
 }
 
 .owl-theme .owl-nav .owl-next:before {
   content: "\f061";
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
 }
 
 .owl-theme.arrow_right_left .owl-nav {
@@ -2766,7 +2770,8 @@ button {
   -webkit-transform: translateY(-55%);
   -ms-transform: translateY(-55%);
   transform: translateY(-55%);
-  font-family: "Lato", sans-serif;
+  font-family: "Font Awesome 5 Free","Lato", sans-serif;
+  font-weight: bold;
 }
 
 .sidebar-menu-wrapper .mobile_menu .menu_list .dropdown-menu {
@@ -5567,9 +5572,27 @@ button {
 /* service primary 2 - start */
 .service_primary_2 {
   margin-top: 50px;
-  padding: 0px 26px;
   text-align: center;
+  background-color: white;
+  
+  border-radius: 5%;
+  -webkit-transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -o-transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background-size: 155px auto;
+  background-position: right 30px bottom 30px;
+  -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.08);
 }
+
+.service_primary_2:hover {
+  -webkit-transform: translateY(-16px);
+  -ms-transform: translateY(-16px);
+  transform: translateY(-16px);
+  -webkit-box-shadow: 0px 15px 30px 0px rgba(38, 59, 94, 0.1);
+  box-shadow: 0px 15px 30px 0px rgba(38, 59, 94, 0.1);
+}
+
 .service_primary_2 .item_icon {
   z-index: 1;
   height: 75px;
@@ -21273,6 +21296,7 @@ button {
   }
 }
 
+#more {display: none;}
 /* ====================================================================================================
 10 - media screen and (max-width: 320px) - end
 ==================================================================================================== */

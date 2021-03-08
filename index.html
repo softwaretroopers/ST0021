@@ -16,11 +16,12 @@
       type="text/css"
       href="assets/css/bootstrap.min.css"
     />
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
     <!-- icons - css include -->
-    
-    
 
     <!-- slider & carousel - css include -->
     <link
@@ -124,7 +125,7 @@
                   <img src="assets/images/logo/logo.png" alt="logo_not_found" />
                 </a>
                 <button type="button" class="menu_btn">
-                  <i class="fas fa-bars" style="color: #6a7c92;"></i>
+                  <i class="fas fa-bars" style="color: #6a7c92"></i>
                 </button>
               </div>
             </div>
@@ -140,16 +141,22 @@
                     <a href="#service_section">About Us</a>
                   </li>
 
-                  <li class="menu_item_has_child">
-                    <a href="#services_section">Services</a>
-                  </li>
+                  <li class=" menu_item_has_child">
+										<a href="#!">Services</a>
+										<ul class="submenu">
+											<li><a href="about.html">About Us</a></li>
+											<li><a href="pricing.html">Pricing</a></li>
+											<li><a href="team.html">Our Team</a></li>
+											<li><a href="process.html">Process</a></li>
+										</ul>
+									</li>
 
                   <li class="menu_item_has_child">
                     <a href="#testimonial_section">Our Team</a>
                   </li>
 
                   <li class="menu_item_has_child">
-                    <a href="#partner_section">Partners</a>
+                    <a href="#partner_section">Portfolio</a>
                   </li>
                 </ul>
               </nav>
@@ -180,13 +187,23 @@
             <ul class="clearfix">
               <li><a href="#">Home</a></li>
               <li><a href="#service_section">About Us</a></li>
-              <li><a href="#services_section">Services</a></li>
+              <li class="dropdown">
+								<a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+								<ul class="dropdown-menu">
+									<li><a href="service_1.html">Services</a></li>
+									<li><a href="service_2.html">Service V.2</a></li>
+									<li><a href="service_3.html">Service V.3</a></li>
+									<li><a href="case_study.html">Case Study</a></li>
+								</ul>
+							</li>
               <li><a href="#testimonial_section">Our Team</a></li>
-              <li><a href="#partner_section">Partners</a></li>
+              <li><a href="#partner_section">Portfolio</a></li>
             </ul>
           </div>
 
-          <a href="#newsletter_section" class="btn bg_default_blue">Contact Us</a>
+          <a href="#newsletter_section" class="btn bg_default_blue"
+            >Contact Us</a
+          >
         </div>
         <div class="overlay"></div>
       </div>
@@ -267,7 +284,9 @@
                   >
                     <ul class="clearfix">
                       <li>
-                        <a href="#newsletter_section" class="btn btn_border border_blue"
+                        <a
+                          href="#newsletter_section"
+                          class="btn btn_border border_blue"
                           >Contact Us</a
                         >
                       </li>
@@ -347,131 +366,45 @@
         </section>
         <!-- banner_section - end
 				================================================== -->
-
-        <!-- service_section - start
+        
+<!-- feature_section - start
 				================================================== -->
         <section
-          id="service_section"
-          class="service_section sec_ptb_120 pt-0 deco_wrap clearfix"
+          id="aboutus_section"
+          class="feature_section sec_ptb_60 deco_wrap clearfix"
         >
-          <div class="container w-1520">
-            <div class="section_title text-center mb-30 c_slide_in">
-              <h3 class="sub_title mb-15">
-                <span class="c_slide_in_wrap1">
-                  <span class="c_slide_in_wrap2">
-                    <span class="c_slide_in_wrap3"> WE ARE THE BEST </span>
-                  </span>
-                </span>
-              </h3>
-              <h2 class="title_text mb-0">
-                <span class="c_slide_in_wrap1">
-                  <span class="c_slide_in_wrap2">
-                    <span class="c_slide_in_wrap3">Why AZUX Tech</span>
-                  </span>
-                </span>
-              </h2>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-3 col-md-6 col-sm-6">
-                <div
-                  class="service_primary_2"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                >
-                  <div class="item_icon icon_blue">
-                    <i class="fas fa-pencil-ruler"></i>
-                  </div>
-                  <h3 class="item_title">Cutting Edge Technology</h3>
-                  <p>
-                    Take the advantage of our cutting edge solutions to increase
-                    your Return of Investment on IT.
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-6 col-sm-6">
-                <div
-                  class="service_primary_2"
-                  data-aos="fade-up"
-                  data-aos-delay="500"
-                >
-                  <div class="item_icon icon_orange">
-                    <i class="fas fa-desktop"></i>
-                  </div>
-                  <h3 class="item_title">Cross Device Compatibility</h3>
-                  <p>
-                    Multi-device compatibility ensures that creating, viewing
-                    and providing quick and easy
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-6 col-sm-6">
-                <div
-                  class="service_primary_2"
-                  data-aos="fade-up"
-                  data-aos-delay="700"
-                >
-                  <div class="item_icon icon_green">
-                    <i class="fas fa-headphones-alt"></i>
-                  </div>
-                  <h3 class="item_title">Tailer Mode Development</h3>
-                  <p>
-                    Scalable and dynamic systems with the ever-changing trends
-                    to meet your dynamic business needs
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-6 col-sm-6">
-                <div
-                  class="service_primary_2"
-                  data-aos="fade-up"
-                  data-aos-delay="900"
-                >
-                  <div class="item_icon icon_purple">
-                    <i class="fas fa-magic"></i>
-                  </div>
-                  <h3 class="item_title">Intelligent Systems</h3>
-                  <p>
-                    Without forgetting to apply intelligent technologies to
-                    provide the right services like data mining & big data analytics.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="deco_image dot_image_1"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
-            <img
-              src="assets/images/shapes/shape_25.png"
-              alt="image_not_found"
-              data-parallax='{"y" : 90}'
-            />
-          </div>
-        </section>
-        <!-- service_section - end
-				================================================== -->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="300">
-          <hr class="m-0" />
-        </div>
-
-        <!-- introduction_section - start
-				================================================== -->
-     
-        <!-- introduction_section - end
-				================================================== -->
-
-        <!-- feature_section - start
-				================================================== -->
-        <section id="services_section" class="feature_section sec_ptb_120 deco_wrap clearfix">
           <div class="container">
+            <div
+              class="section_title text-center mb-10"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <h3 class="sub_title mb-15">We are the best</h3>
+              <h2 class="title_text mb-15">Why Azux Tech</h2>
+              <p>
+                In the future, robots are taking over the world. Although it is
+                not yet, they are common in almost every industry, from health
+                care and manufacturing to defense and education. So our AZUX
+                TECHNOLOGY provides services of robotics design and development
+                using strategies such as system design, perception and mapping,
+                navigation and control, stimulation, and ROS development. <span id="dots">...</span><span id="more">Also,
+                we are a team much more dedicated to empowering to tapping the
+                potential of artificial intelligence solutions in their
+                business. Our company, AZUX TECHNOLOGY, has rich experience
+                across Embedded Development for Hardware and Software Solutions.
+                Suppose you want to perk up business and workplace safety,
+                increase productivity level, trimming down operating costs, and
+                backing business with model data. In that case, you have the
+                opportunity to get our IoT Solutions service as well. In
+                addition to these things, the AZUX TECHNOLOGY company provides
+                Electronic Contract Manufacturing and assembly solutions
+                according to lean principles and techniques. Emphasizing the
+                highest quality, we strive to eliminate the Electronic Contract
+                Manufacturing process's impurities to deliver products to our
+                clients in a more timely and efficient manner.</span>
+              </p>
+              <button class="btn btn_border border_blue"  onclick="readMoreFunction()" id="myBtn">Read More </button>
+            </div>
             <div class="feature_item">
               <div
                 class="row align-items-center justify-content-lg-between justify-content-md-center justify-content-sm-center"
@@ -491,8 +424,9 @@
 
                 <div class="col-lg-5 col-md-6 col-sm-8">
                   <div class="section_title ml--30">
-                    <span class="icon icon_yellow mb-30">
-                      <i class="fab fa-connectdevelop"></i>
+                    <span class="icon icon_yellow mb-30" data-aos="fade-up"
+                    data-aos-delay="50">
+                      <i class="fab fa-connectdevelop" ></i>
                     </span>
                     <h2 class="title_text mb-30 c_slide_in">
                       <span class="c_slide_in_wrap1">
@@ -504,46 +438,9 @@
                       </span>
                     </h2>
                     <p class="mb-30" data-aos="fade-up" data-aos-delay="100">
-                      Rely on wireless nodes rather than centralized access points to create a virtual wireless backbone without involving a phone company or ISP.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="feature_item">
-              <div
-                class="row align-items-center justify-content-lg-between justify-content-md-center justify-content-sm-center"
-              >
-                <div class="col-lg-6 col-md-7 col-sm-8 order-last">
-                  <div
-                    class="feature_image float-left"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                  >
-                    <img
-                      src="assets/images/features/img_10.png"
-                      alt="image_not_found"
-                    />
-                  </div>
-                </div>
-
-                <div class="col-lg-5 col-md-6 col-sm-8">
-                  <div class="section_title mr--30">
-                    <span class="icon icon_pink mb-30">
-                      <i class="fas fa-podcast"></i>
-                    </span>
-                    <h2 class="title_text mb-30 c_slide_in">
-                      <span class="c_slide_in_wrap1">
-                        <span class="c_slide_in_wrap2">
-                          <span class="c_slide_in_wrap3">
-                            Long-Range Communications
-                          </span>
-                        </span>
-                      </span>
-                    </h2>
-                    <p class="mb-30" data-aos="fade-up" data-aos-delay="100">
-                      Since remote sensors only need to send small packets of data at regular intervals, they connect from different areas via dedicated networks like NB-IoT or LTEM.
+                      Rely on wireless nodes rather than centralized access
+                      points to create a virtual wireless backbone without
+                      involving a phone company or ISP.
                     </p>
                   </div>
                 </div>
@@ -601,20 +498,25 @@
 
                 <div class="col-lg-5 col-md-6 col-sm-7">
                   <div class="section_title ml--30 text-white">
-                    <span class="icon mb-30">
+                    <span class="icon mb-30" data-aos="fade-up"
+                    data-aos-delay="50">
                       <i class="fas fa-infinity"></i>
                     </span>
                     <h2 class="title_text mb-30 c_slide_in">
                       <span class="c_slide_in_wrap1">
                         <span class="c_slide_in_wrap2">
                           <span class="c_slide_in_wrap3">
-                            IoT Device Management 
+                            IoT Device Management
                           </span>
                         </span>
                       </span>
                     </h2>
                     <p class="mb-30" data-aos="fade-up" data-aos-delay="100">
-                      Since the IoT encompasses a wide range of devices from sensors to industrial robots, we develop efficient device-level application programming interfaces (APIs) to easily leverage the technologies integrated and visualize the data through a dedicated HMI
+                      Since the IoT encompasses a wide range of devices from
+                      sensors to industrial robots, we develop efficient
+                      device-level application programming interfaces (APIs) to
+                      easily leverage the technologies integrated and visualize
+                      the data through a dedicated HMI
                     </p>
                   </div>
                 </div>
@@ -634,177 +536,711 @@
         <!-- feature_section - end
 				================================================== -->
 
-        <!-- testimonial_section - start
+        <!-- service_section - start
+				================================================== -->
+        <section class="service_section sec_ptb_120 bg_gray deco_wrap clearfix">
+          <div class="container w-1520">
+            <div
+              class="section_title text-center mb-80"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <h3 class="sub_title mb-15">Our Services</h3>
+              <h2 class="title_text mb-0">Services We Provide</h2>
+            </div>
+
+            <div
+              id="service_carousel"
+              class="service_carousel arrow_right_left owl-carousel owl-theme"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+            <div class="item">
+              <div
+                class="service_primary_2"
+                style="
+                  padding: 1rem 2rem;"
+              >
+                <div class="item_icon icon_blue">
+                  <i class="fas fa-pencil-ruler"></i>
+                </div>
+                <h3 class="item_title">Cutting Edge Technology</h3>
+                <p>
+                  Take the advantage of our cutting edge solutions to increase
+                  your Return of Investment on IT.
+                </p>
+                <a href="#" class="details_btn">Read More <i class="fas fa-chevron-right ml-1"></i></a>
+              </div>
+            </div>
+
+              <div class="item">
+                <div
+                  class="service_primary_2"
+                  style="
+                    padding: 1rem 2rem;"
+                >
+                  <div class="item_icon icon_blue">
+                    <i class="fas fa-pencil-ruler"></i>
+                  </div>
+                  <h3 class="item_title">Cutting Edge Technology</h3>
+                  <p>
+                    Take the advantage of our cutting edge solutions to increase
+                    your Return of Investment on IT.
+                  </p>
+                  <a href="#" class="details_btn">Read More <i class="fas fa-chevron-right ml-1"></i></a>
+                </div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="service_primary_2"
+                  style="
+                    padding: 1rem 2rem;"
+                >
+                  <div class="item_icon icon_blue">
+                    <i class="fas fa-pencil-ruler"></i>
+                  </div>
+                  <h3 class="item_title">Cutting Edge Technology</h3>
+                  <p>
+                    Take the advantage of our cutting edge solutions to increase
+                    your Return of Investment on IT.
+                  </p>
+                  <a href="#" class="details_btn">Read More <i class="fas fa-chevron-right ml-1"></i></a>
+                </div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="service_primary_2"
+                  style="
+                    padding: 1rem 2rem;"
+                >
+                  <div class="item_icon icon_blue">
+                    <i class="fas fa-pencil-ruler"></i>
+                  </div>
+                  <h3 class="item_title">Cutting Edge Technology</h3>
+                  <p>
+                    Take the advantage of our cutting edge solutions to increase
+                    your Return of Investment on IT.
+                  </p>
+                  <a href="#" class="details_btn">Read More <i class="fas fa-chevron-right ml-1"></i></a>
+                </div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="service_primary_2"
+                  style="
+                    padding: 1rem 2rem;"
+                >
+                  <div class="item_icon icon_blue">
+                    <i class="fas fa-pencil-ruler"></i>
+                  </div>
+                  <h3 class="item_title">Cutting Edge Technology</h3>
+                  <p>
+                    Take the advantage of our cutting edge solutions to increase
+                    your Return of Investment on IT.
+                  </p>
+                  <a href="#" class="details_btn">Read More <i class="fas fa-chevron-right ml-1"></i></a>
+                </div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="service_primary_2"
+                  style="
+                    padding: 1rem 2rem;"
+                >
+                  <div class="item_icon icon_blue">
+                    <i class="fas fa-pencil-ruler"></i>
+                  </div>
+                  <h3 class="item_title">Cutting Edge Technology</h3>
+                  <p>
+                    Take the advantage of our cutting edge solutions to increase
+                    your Return of Investment on IT.
+                  </p>
+                  <a href="#" class="details_btn">Read More <i class="fas fa-chevron-right ml-1"></i></a>
+                </div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="service_primary_2"
+                  style="
+                    padding: 1rem 2rem;"
+                >
+                  <div class="item_icon icon_blue">
+                    <i class="fas fa-pencil-ruler"></i>
+                  </div>
+                  <h3 class="item_title">Cutting Edge Technology</h3>
+                  <p>
+                    Take the advantage of our cutting edge solutions to increase
+                    your Return of Investment on IT.
+                  </p>
+                  <a href="#" class="details_btn">Read More <i class="fas fa-chevron-right ml-1"></i></a>
+                </div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="service_primary_2"
+                  style="
+                    padding: 1rem 2rem;"
+                >
+                  <div class="item_icon icon_blue">
+                    <i class="fas fa-pencil-ruler"></i>
+                  </div>
+                  <h3 class="item_title">Cutting Edge Technology</h3>
+                  <p>
+                    Take the advantage of our cutting edge solutions to increase
+                    your Return of Investment on IT.
+                  </p>
+                  <a href="#" class="details_btn">Read More <i class="fas fa-chevron-right ml-1"></i></a>
+                </div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="service_primary_2"
+                  style="
+                    padding: 1rem 2rem;"
+                >
+                  <div class="item_icon icon_blue">
+                    <i class="fas fa-pencil-ruler"></i>
+                  </div>
+                  <h3 class="item_title">Cutting Edge Technology</h3>
+                  <p>
+                    Take the advantage of our cutting edge solutions to increase
+                    your Return of Investment on IT.
+                  </p>
+                  <a href="#" class="details_btn">Read More <i class="fas fa-chevron-right ml-1"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="deco_image spahe_1"
+              data-aos="fade-left"
+              data-aos-delay="100"
+            >
+              <img
+                src="assets/images/shapes/shape_8.png"
+                alt="spahe_not_found"
+              />
+            </div>
+            <div
+              class="deco_image spahe_2"
+              data-aos="fade-left"
+              data-aos-delay="300"
+            >
+              <img
+                src="assets/images/shapes/shape_9.png"
+                alt="spahe_not_found"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- service_section - end
+				================================================== -->
+
+
+        <!-- casestudy_section - start
 				================================================== -->
         <section
-          id="testimonial_section"
-          class="testimonial_section sec_ptb_120 deco_wrap clearfix"
+          id="casestudy_section"
+          class="casestudy_section sec_ptb_120 pb-0 deco_wrap clearfix mb-80"
         >
           <div class="container">
-            <div class="section_title text-center mb-80 c_slide_in">
-              <h3 class="sub_title mb-15">
-                <span class="c_slide_in_wrap1">
-                  <span class="c_slide_in_wrap2">
-                    <span class="c_slide_in_wrap3"
-                      >Know who you are working with</span
-                    >
-                  </span>
+            <div class="section_title text-center mb-50 c_slide_in">
+              <h3 class="sub_title mb-15 c_slide_in_wrap1">
+                <span class="c_slide_in_wrap2">
+                  <span class="c_slide_in_wrap3"> Completed Projects </span>
                 </span>
               </h3>
-              <h2 class="title_text mb-0">
-                <span class="c_slide_in_wrap1">
-                  <span class="c_slide_in_wrap2">
-                    <span class="c_slide_in_wrap3">Meet Our Team</span>
-                  </span>
+              <h2 class="title_text mb-0 c_slide_in_wrap1">
+                <span class="c_slide_in_wrap2">
+                  <span class="c_slide_in_wrap3"> Portfolio </span>
                 </span>
               </h2>
             </div>
 
-            <div class="row justify-content-center">
-              <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12">
+            <div
+              class="button-group filter-btns-group ul_li_center mb-50"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <ul class="clearfix">
+                <li>
+                  <button class="active" data-filter="*">All Projects</button>
+                </li>
+                <li><button data-filter=".design">Design</button></li>
+                <li><button data-filter=".marketing">Marketing</button></li>
+                <li><button data-filter=".development">Development</button></li>
+                <li><button data-filter=".branding">Branding</button></li>
+              </ul>
+            </div>
+
+            <div class="element_grid column_3">
+              <div class="element-item design branding" data-category="design">
                 <div
-                  id="testimonial_carousel_1"
-                  class="testimonial_carousel_1 secondary_style dots_true nav_false owl-carousel owl-theme"
+                  class="casestudy_grid"
                   data-aos="fade-up"
                   data-aos-delay="300"
                 >
-                  <div class="item text-center">
-                    <div class="thumbnail_wrap">
-                      <div class="thumbnail_image">
-                        <img
-                          src="assets/images/meta/team-1.jpg"
-                          alt="image_not_found"
-                        />
-                      </div>
-                    </div>
-
-                    <h3 class="hero_name">Dilan Jayasekara</h3>
-                    <span class="hero_title mb-30">Co-Founder<br />CEO</span>
-
-                    <ul style="padding-left: 0; text-align:center;list-style-type: none;">
-                      <li style="display: inline-block;margin: 2px;">
-                        <a href="#""
-                          ><i class="fab fa-instagram" style="font-size: 2rem"></i></a>
-                      </li>
-                      <li style="display: inline-block;margin: 2px;">
-                        <a href="#"
-                          ><i class="fab fa-facebook" style="font-size: 2rem"></i></a>
-                      </li>
-                      <li style="display: inline-block;margin: 2px;">
-                        <a href="#"
-                          ><i class="fab fa-linkedin" style="font-size: 2rem"></i></a>
-                      </li>
-                      <li style="display: inline-block;margin: 2px;">
-                        <a href="#"
-                          ><i class="fab fa-twitter" style="font-size: 2rem"></i></a>
-                      </li>
+                  <a class="item_image" href="case_study_details.html">
+                    <img
+                      src="assets/images/portfolio/2_columns/img_1.jpg"
+                      alt="image_not_found"
+                    />
+                  </a>
+                  <h3 class="item_title">
+                    <a href="case_study_details.html">Apple Mobile Mockup</a>
+                  </h3>
+                  <div class="item_category ul_li">
+                    <ul class="clearfix">
+                      <li><a href="#!">Gaming</a></li>
+                      <li><a href="#!">Fashion</a></li>
                     </ul>
                   </div>
+                </div>
+              </div>
 
-                  <div class="item text-center">
-                    <div class="thumbnail_wrap">
-                      <div class="thumbnail_image">
-                        <img
-                          src="assets/images/meta/team-2.jpg"
-                          alt="image_not_found"
-                        />
-                      </div>
-                    </div>
-
-                    <h3 class="hero_name">Darshan Hettiarachchi</h3>
-                    <span class="hero_title mb-30">Head of Stratergy<br />CMO</span>
-
-                    <ul style="padding-left: 0; text-align:center;list-style-type: none;">
-						<li style="display: inline-block;margin: 2px;">
-						  <a href="#""
-							><i class="fab fa-instagram" style="font-size: 2rem"></i></a>
-						</li>
-						<li style="display: inline-block;margin: 2px;">
-						  <a href="#"
-							><i class="fab fa-facebook" style="font-size: 2rem"></i></a>
-						</li>
-						<li style="display: inline-block;margin: 2px;">
-						  <a href="#"
-							><i class="fab fa-linkedin" style="font-size: 2rem"></i></a>
-						</li>
-						<li style="display: inline-block;margin: 2px;">
-						  <a href="#"
-							><i class="fab fa-twitter" style="font-size: 2rem"></i></a>
-						</li>
-					  </ul>
+              <div
+                class="element-item marketing design"
+                data-category="marketing"
+              >
+                <div
+                  class="casestudy_grid"
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                >
+                  <a class="item_image" href="case_study_details.html">
+                    <img
+                      src="assets/images/portfolio/2_columns/img_2.jpg"
+                      alt="image_not_found"
+                    />
+                  </a>
+                  <h3 class="item_title">
+                    <a href="case_study_details.html">Interior Design</a>
+                  </h3>
+                  <div class="item_category ul_li">
+                    <ul class="clearfix">
+                      <li><a href="#!">Gaming</a></li>
+                      <li><a href="#!">Fashion</a></li>
+                    </ul>
                   </div>
+                </div>
+              </div>
 
-                  <div class="item text-center">
-                    <div class="thumbnail_wrap">
-                      <div class="thumbnail_image">
-                        <img
-                          src="assets/images/meta/team-3.jpg"
-                          alt="image_not_found"
-                        />
-                      </div>
-                    </div>
+              <div
+                class="element-item development marketing"
+                data-category="development"
+              >
+                <div
+                  class="casestudy_grid"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <a class="item_image" href="case_study_details.html">
+                    <img
+                      src="assets/images/portfolio/2_columns/img_3.jpg"
+                      alt="image_not_found"
+                    />
+                  </a>
+                  <h3 class="item_title">
+                    <a href="case_study_details.html"
+                      >Portfolio Center Slider</a
+                    >
+                  </h3>
+                  <div class="item_category ul_li">
+                    <ul class="clearfix">
+                      <li><a href="#!">Gaming</a></li>
+                      <li><a href="#!">Fashion</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
 
-                    <h3 class="hero_name">Bill Zhong</h3>
-                    <span class="hero_title mb-30">Director<br>Data & Business Analytics</span>
+              <div class="element-item design branding" data-category="design">
+                <div
+                  class="casestudy_grid"
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                >
+                  <a class="item_image" href="case_study_details.html">
+                    <img
+                      src="assets/images/portfolio/2_columns/img_4.jpg"
+                      alt="image_not_found"
+                    />
+                  </a>
+                  <h3 class="item_title">
+                    <a href="case_study_details.html"
+                      >Portfolio Center Slider</a
+                    >
+                  </h3>
+                  <div class="item_category ul_li">
+                    <ul class="clearfix">
+                      <li><a href="#!">Gaming</a></li>
+                      <li><a href="#!">Fashion</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
 
-                    <ul style="padding-left: 0; text-align:center;list-style-type: none;">
-						<li style="display: inline-block;margin: 2px;">
-						  <a href="#""
-							><i class="fab fa-instagram" style="font-size: 2rem"></i></a>
-						</li>
-						<li style="display: inline-block;margin: 2px;">
-						  <a href="#"
-							><i class="fab fa-facebook" style="font-size: 2rem"></i></a>
-						</li>
-						<li style="display: inline-block;margin: 2px;">
-						  <a href="#"
-							><i class="fab fa-linkedin" style="font-size: 2rem"></i></a>
-						</li>
-						<li style="display: inline-block;margin: 2px;">
-						  <a href="#"
-							><i class="fab fa-twitter" style="font-size: 2rem"></i></a>
-						</li>
-					  </ul>
+              <div
+                class="element-item marketing design"
+                data-category="marketing"
+              >
+                <div
+                  class="casestudy_grid"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <a class="item_image" href="case_study_details.html">
+                    <img
+                      src="assets/images/portfolio/2_columns/img_5.jpg"
+                      alt="image_not_found"
+                    />
+                  </a>
+                  <h3 class="item_title">
+                    <a href="case_study_details.html"
+                      >Portfolio Center Slider</a
+                    >
+                  </h3>
+                  <div class="item_category ul_li">
+                    <ul class="clearfix">
+                      <li><a href="#!">Gaming</a></li>
+                      <li><a href="#!">Fashion</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="element-item development marketing"
+                data-category="development"
+              >
+                <div
+                  class="casestudy_grid"
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                >
+                  <a class="item_image" href="case_study_details.html">
+                    <img
+                      src="assets/images/portfolio/2_columns/img_6.jpg"
+                      alt="image_not_found"
+                    />
+                  </a>
+                  <h3 class="item_title">
+                    <a href="case_study_details.html"
+                      >Portfolio Center Slider</a
+                    >
+                  </h3>
+                  <div class="item_category ul_li">
+                    <ul class="clearfix">
+                      <li><a href="#!">Gaming</a></li>
+                      <li><a href="#!">Fashion</a></li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </section>
+        <!-- casestudy_section - end
+				================================================== -->
+        <!-- newsletter_section - start
+				================================================== -->
+        <section
+          id="newsletter_section"
+          class="newsletter_section bg_gradient_blue_2 text-white sec_ptb_60 clearfix"
+        >
+          <div class="container">
+            <div
+              class="row align-items-center justify-content-lg-between justify-content-md-center justify-content-sm-center"
+            >
+              <div class="col-lg-5 col-md-7 col-sm-9">
+                <div class="section_title decrease_size">
+                  <h2 class="title_text mb-15">Wanna Contact Us?</h2>
+                  <p class="mb-0">
+                    Contact us through any social media<span class="d-block">
+                      or just enter your email below.</span
+                    >
+                    <span class="d-block">And we'll contact you.</span>
+                  </p>
+                </div>
+              </div>
 
-          <div class="deco_image shape_1" data-parallax='{"y" : 90}'>
-            <img
-              src="assets/images/shapes/shape_25.png"
-              alt="image_not_found"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            />
-          </div>
-          <div
-            class="deco_image shape_2"
-            data-aos="fade-left"
-            data-aos-delay="300"
-          >
-            <img
-              src="assets/images/shapes/shape_31.png"
-              alt="image_not_found"
-            />
+              <div class="col-lg-4 col-md-6 col-sm-8">
+                <form action="#">
+                  <div class="form_item mb-0">
+                    <input
+                      class="text-left"
+                      type="email"
+                      name="email"
+                      placeholder="Your email"
+                    />
+                  </div>
+                </form>
+              </div>
+
+              <div class="col-lg-2 col-md-12">
+                <button
+                  type="submit"
+                  class="btn btn_border border_white float-right"
+                >
+                  Send
+                </button>
+              </div>
+            </div>
           </div>
         </section>
-        <!-- testimonial_section - end
+        <!-- newsletter_section - end
 				================================================== -->
 
-        <div class="container" data-aos="fade-up" data-aos-delay="300">
-          <hr class="m-0" />
-        </div>
+        <!-- team_section - start
+				================================================== -->
+        <section id="team_section" class="team_section sec_ptb_120 clearfix">
+          <div class="container">
+            <div
+              class="section_title text-center mb-30"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h3 class="sub_title mb-15">Know who you are working with</h3>
+              <h2 class="title_text mb-0">Meet Our Team</h2>
+            </div>
+
+            <div class="row justify-content-center">
+              <div
+                class="col-lg-3 col-md-3 col-sm-4"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div class="team_grid">
+                  <div class="member_image">
+                    <img
+                      src="assets/images/meta/team-1.jpg"
+                      alt="image_not_found"
+                    />
+                    <div class="social_icon ul_li_center">
+                      <ul class="clearfix">
+                        <li>
+                          <a href="#!">
+                            <i
+                              class="fab fa-instagram"
+                              style="font-size: 2rem"
+                            ></i>
+                            <i
+                              class="fab fa-instagram"
+                              style="font-size: 2rem"
+                            ></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <i
+                              class="fab fa-facebook"
+                              style="font-size: 2rem"
+                            ></i>
+                            <i
+                              class="fab fa-facebook"
+                              style="font-size: 2rem"
+                            ></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <i
+                              class="fab fa-linkedin"
+                              style="font-size: 2rem"
+                            ></i>
+                            <i
+                              class="fab fa-linkedin"
+                              style="font-size: 2rem"
+                            ></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <i
+                              class="fab fa-twitter"
+                              style="font-size: 2rem"
+                            ></i>
+                            <i
+                              class="fab fa-twitter"
+                              style="font-size: 2rem"
+                            ></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <h3 class="member_name">
+                    <a href="#!">Dilan Jayasekara</a>
+                  </h3>
+                  <span class="member_title">Co-Founder / CEO</span>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-3 col-sm-4"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <div class="team_grid">
+                  <div class="member_image">
+                    <img
+                      src="assets/images/meta/team-2.jpg"
+                      alt="image_not_found"
+                    />
+                    <div class="social_icon ul_li_center">
+                      <ul class="clearfix">
+                        <li>
+                          <a href="#!">
+                            <i
+                              class="fab fa-instagram"
+                              style="font-size: 2rem"
+                            ></i>
+                            <i
+                              class="fab fa-instagram"
+                              style="font-size: 2rem"
+                            ></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <i
+                              class="fab fa-facebook"
+                              style="font-size: 2rem"
+                            ></i>
+                            <i
+                              class="fab fa-facebook"
+                              style="font-size: 2rem"
+                            ></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <i
+                              class="fab fa-linkedin"
+                              style="font-size: 2rem"
+                            ></i>
+                            <i
+                              class="fab fa-linkedin"
+                              style="font-size: 2rem"
+                            ></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <i
+                              class="fab fa-twitter"
+                              style="font-size: 2rem"
+                            ></i>
+                            <i
+                              class="fab fa-twitter"
+                              style="font-size: 2rem"
+                            ></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <h3 class="member_name">
+                    <a href="#!">Darshan Hettiarachchi</a>
+                  </h3>
+                  <span class="member_title">Head of Stratergy / CMO</span>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-3 col-sm-4"
+                data-aos="fade-up"
+                data-aos-delay="700"
+              >
+                <div class="team_grid">
+                  <div class="member_image">
+                    <img
+                      src="assets/images/meta/team-3.jpg"
+                      alt="image_not_found"
+                    />
+                    <div class="social_icon ul_li_center">
+                      <ul class="clearfix">
+                        <li>
+                          <a href="#!">
+                            <i
+                              class="fab fa-instagram"
+                              style="font-size: 2rem"
+                            ></i>
+                            <i
+                              class="fab fa-instagram"
+                              style="font-size: 2rem"
+                            ></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <i
+                              class="fab fa-facebook"
+                              style="font-size: 2rem"
+                            ></i>
+                            <i
+                              class="fab fa-facebook"
+                              style="font-size: 2rem"
+                            ></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <i
+                              class="fab fa-linkedin"
+                              style="font-size: 2rem"
+                            ></i>
+                            <i
+                              class="fab fa-linkedin"
+                              style="font-size: 2rem"
+                            ></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#!">
+                            <i
+                              class="fab fa-twitter"
+                              style="font-size: 2rem"
+                            ></i>
+                            <i
+                              class="fab fa-twitter"
+                              style="font-size: 2rem"
+                            ></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <h3 class="member_name">
+                    <a href="#!">Bill Zhong</a>
+                  </h3>
+                  <span class="member_title"
+                    >Director / Data & Business Analytics</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- team_section - end
+				================================================== -->
 
         <!-- partner_section - start
 				================================================== -->
+        
         <section
           id="partner_section"
-          class="partner_section text-center sec_ptb_120 deco_wrap clearfix"
+          class="service_section sec_ptb_120 bg_gray deco_wrap clearfix"
         >
           <div class="container">
-            <div class="section_title text-center mb-80 c_slide_in">
+            <div class="section_title text-center mb-30 c_slide_in">
               <h3 class="sub_title mb-15">
                 <span class="c_slide_in_wrap1">
                   <span class="c_slide_in_wrap2">
@@ -885,57 +1321,8 @@
               alt="image_not_found"
             />
           </div>
-
-          
         </section>
         <!-- partner_section - end
-				================================================== -->
-
-        <!-- newsletter_section - start
-				================================================== -->
-        <section
-          id="newsletter_section"
-          class="newsletter_section bg_gradient_blue_2 text-white sec_ptb_60 clearfix"
-        >
-          <div class="container">
-            <div
-              class="row align-items-center justify-content-lg-between justify-content-md-center justify-content-sm-center"
-            >
-              <div class="col-lg-5 col-md-7 col-sm-9">
-                <div class="section_title decrease_size">
-                  <h2 class="title_text mb-15">Wanna Contact Us?</h2>
-                  <p class="mb-0">
-                    Contact us through any social media<span class="d-block"> or just enter your email below.</span>
-                    <span class="d-block">And we'll contact you.</span>
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 col-sm-8">
-                <form action="#">
-                  <div class="form_item mb-0">
-                    <input
-                      class="text-left"
-                      type="email"
-                      name="email"
-                      placeholder="Your email"
-                    />
-                  </div>
-                </form>
-              </div>
-
-              <div class="col-lg-2 col-md-12">
-                <button
-                  type="submit"
-                  class="btn btn_border border_white float-right"
-                >
-                  Send
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- newsletter_section - end
 				================================================== -->
       </main>
       <!-- main body - end
@@ -961,9 +1348,12 @@
                     </a>
                   </div>
                   <div class="contact_info ul_li_block mb-30">
-                    <p>We are a group of individuals with a various set of skill set varies from Digital Marketing to IoT/Robotics solutions.</p>
+                    <p>
+                      We are a group of individuals with a various set of skill
+                      set varies from Digital Marketing to IoT/Robotics
+                      solutions.
+                    </p>
                   </div>
-                  
                 </div>
               </div>
 
@@ -985,9 +1375,7 @@
                     <li><a href="#">Facebook</a></li>
                     <li><a href="#">Instagram</a></li>
                     <li>
-                      <a href="#"
-                        >Twitter</a
-                      >
+                      <a href="#">Twitter</a>
                     </li>
                   </ul>
                 </div>
@@ -1019,7 +1407,8 @@
                     >
                   </p>
                 </div>
-              </div></div>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
